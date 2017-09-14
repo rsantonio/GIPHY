@@ -1,0 +1,13 @@
+body {
+	background: url("assets/images/castle.jpg");
+	background-repeat: repeat;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.jumbotron-fluid {
+	background: url("assets/images/pixarup.jpg");
+	background-repeat: repeat;
+}
