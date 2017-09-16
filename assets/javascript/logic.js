@@ -25,11 +25,12 @@
 
           var gifsDiv = $("<div>");
 
+
           var rating = $("<p>").text("Rating: " + results[i].rating);
 
           var gifsImage = $("<img>");
 
-          gifsImage.attr("src", results[i].images.fixed_height.url);
+          gifsImage.attr("src", results[i].images.fixed_width.url);
 
           $(gifsDiv).append(gifsImage);
 

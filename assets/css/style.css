@@ -1,5 +1,5 @@
 body {
-	background: url("assets/images/castle.jpg");
+	background: url("../images/BigBangTheory.png");
 	background-repeat: repeat;
 }
 
@@ -7,7 +7,37 @@ body {
 	box-sizing: border-box;
 }
 
-.jumbotron-fluid {
-	background: url("assets/images/pixarup.jpg");
+.jumbotron {
+	background: url("../images/cast.jpg");
 	background-repeat: repeat;
 }
+
+.container {
+	text-align: center;
+	color: white;
+}
+
+button {
+	padding-right: 5px;
+	margin-right: 5px;
+	background: black;
+}
+
+#topic-input {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#add-topic {
+	padding-top: 5px;
+	margin: auto;
+	background: black;
+}
+
+#gifs-view {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	display: inline-grid;
+
+}
+
